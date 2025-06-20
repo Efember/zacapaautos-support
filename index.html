@@ -26,23 +26,39 @@
       color: #5e17eb;
       text-decoration: none;
     }
-    a:hover {
-      text-decoration: underline;
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 20px;
+      background-color: #5e17eb;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background-color: #4a13c2;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <h1>Soporte de ZacapaAutos</h1>
-    <p>Gracias por utilizar nuestra aplicación. Si tienes preguntas, sugerencias o necesitas ayuda, puedes contactarnos directamente.</p>
+    <p>Gracias por utilizar nuestra aplicación. Si tienes preguntas, sugerencias o necesitas asistencia, puedes contactarnos directamente a través de los siguientes medios:</p>
 
     <h2>Contacto</h2>
     <p><strong>Correo electrónico:</strong> <a href="mailto:zacapaautosapp@gmail.com">zacapaautosapp@gmail.com</a></p>
     <p><strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send/?phone=50254472611" target="_blank">+502 5447 2611</a></p>
 
-    <h2>Eliminación de cuenta</h2>
-    <p>Si deseas eliminar tu cuenta, por favor contáctanos a través del correo o WhatsApp indicados arriba. Eliminaremos permanentemente tu cuenta y toda la información asociada.</p>
-    <p>Esta política se debe a que la app está destinada para uso interno institucional y no al público general.</p>
+    <h2>Eliminar cuenta</h2>
+    <p>Si deseas eliminar tu cuenta y todos los datos personales asociados, puedes hacerlo enviando una solicitud por correo o WhatsApp usando los botones a continuación:</p>
+
+    <a href="mailto:zacapaautosapp@gmail.com?subject=Solicitud de eliminación de cuenta&body=Hola, deseo eliminar mi cuenta y toda la información asociada." class="btn">Eliminar cuenta por correo</a>
+    <br/>
+    <a href="https://api.whatsapp.com/send/?phone=50254472611&text=Hola, deseo eliminar mi cuenta y toda la información asociada." class="btn" target="_blank">Eliminar cuenta por WhatsApp</a>
+
+    <p style="margin-top:20px;">Procesaremos tu solicitud en un plazo máximo de 24 horas.</p>
   </div>
 </body>
 </html>
